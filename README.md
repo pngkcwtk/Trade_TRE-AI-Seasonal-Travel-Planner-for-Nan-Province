@@ -99,3 +99,7 @@ http://localhost:5173
 ## 📝 หมายเหตุความปลอดภัย
 
 - ตัวโปรเจกต์ไม่นำ `GEMINI_API_KEY` ไปเขียนไว้ในฝั่ง Frontend/Client (JavaScript) เพื่อป้องกันความปลอดภัยของข้อมูล Key ไม่ให้หลุดลอยสู่สาธารณะ การติดต่อทั้งหมดจะถูกเชื่อมผ่าน Proxy Backend ใน `server.mjs` เท่านั้น
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
